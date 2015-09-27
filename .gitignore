@@ -2,7 +2,6 @@
 /backup/
 /bitrix/
 /upload/
-/local/
 .htaccess
 /local/php_interface/config/*_override.php
 /sitemap*.xml
