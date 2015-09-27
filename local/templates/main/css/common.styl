@@ -1,0 +1,40 @@
+.clearfix:before,
+.clearfix:after
+  content " " /* 1 */
+  display table /* 2 */
+
+.clearfix:after
+  clear both
+
+.center-helper
+  display inline-block
+  height 100%
+  width 0
+  vertical-align middle
+
+a
+  text-decoration none
+  transition all .4s ease 0s
+
+  &:hover
+  	text-decoration underline
+
+.form-error
+  border 1px solid red !important
+
+.hidden
+  display none
+
+.absl-cntr
+  position absolute
+  top 0
+  left 0
+  right 0
+  bottom 0
+  margin auto
+
+.absl-cntr-x
+  position absolute
+  left 0
+  right 0
+  margin 0 auto

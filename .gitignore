@@ -1,0 +1,7 @@
+/node_modules/
+/backup/
+/bitrix/
+/upload/
+.htaccess
+/local/php_interface/config/*_override.php
+/sitemap*.xml
