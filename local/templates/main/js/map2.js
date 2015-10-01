@@ -266,7 +266,7 @@ for(var regionName in regions) {
             } else {
                 if (!$( '[data-id=' + data + ']' ).is(':visible')) {
                     region.animate({fill: '#FF4D4D'}, animationSpeed);
-                    $('.js-district-list').append('<div class="step-district__item" data-id="'+ data +'"><span>' + data + '<span class="step-district__item-close js-dist-close"></span></span><input type="hidden" value="' + data + '" name="DISTRICTS[]"></div>');
+                    $('.js-district-list').append('<div class="step-district__item" data-id="'+ data +'"><span>' + data + '<span class="step-district__item-close js-dist-close"></span></span><input type="hidden" value="' + data + '" name="ST_DIST[]"></div>');
 
                     var div1 = region
                     var div2 = document.querySelector('div[data-id=' + data + ']');

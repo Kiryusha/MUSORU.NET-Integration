@@ -177,7 +177,7 @@ $APPLICATION->SetTitle("MUSORU.NET");
                                 <div class="add-dist-block__title">
                                     Если Вы не нашли на карте Ваш район - впишите его самостоятельно:
                                 </div>
-                                <input type="text" class="add-dist-block__input" placeholder="Впишите название района" val="">
+                                <input type="text" class="add-dist-block__input" placeholder="Впишите название района" val="" name="ST_DIST[]">
                             </div>
                         </div>
                         <span class="step-form-step__prev button-fill js-prev-step">
@@ -240,8 +240,8 @@ $APPLICATION->SetTitle("MUSORU.NET");
                                         <div class="cont-type-slider__input-wrapper-text">
                                             Количество контейнеров:
                                         </div>
-                                        <input type="checkbox" class="cont-type-slider__checkbox hidden" name="CONT-8M">
-                                        <input type="text" class="cont-type-slider__input" name="CONT-AMOUNT">
+                                        <input type="checkbox" class="cont-type-slider__checkbox hidden" name="ST_CTYPE" value="8 кубометров">
+                                        <input type="text" class="cont-type-slider__input js-cont-amount">
                                     </div>
                                 </div>
                             </div>
@@ -257,8 +257,8 @@ $APPLICATION->SetTitle("MUSORU.NET");
                                         <div class="cont-type-slider__input-wrapper-text">
                                             Количество контейнеров:
                                         </div>
-                                        <input type="checkbox" class="cont-type-slider__checkbox hidden" name="CONT-20M">
-                                        <input type="text" class="cont-type-slider__input" name="CONT-AMOUNT">
+                                        <input type="checkbox" class="cont-type-slider__checkbox hidden" name="ST_CTYPE" value="20 кубометров">
+                                        <input type="text" class="cont-type-slider__input js-cont-amount">
                                     </div>
                                 </div>
                             </div>
@@ -274,8 +274,8 @@ $APPLICATION->SetTitle("MUSORU.NET");
                                         <div class="cont-type-slider__input-wrapper-text">
                                             Количество контейнеров:
                                         </div>
-                                        <input type="checkbox" class="cont-type-slider__checkbox hidden" name="CONT-27M">
-                                        <input type="text" class="cont-type-slider__input" name="CONT-AMOUNT">
+                                        <input type="checkbox" class="cont-type-slider__checkbox hidden" name="ST_CTYPE" value="27 кубометров">
+                                        <input type="text" class="cont-type-slider__input js-cont-amount">
                                     </div>
                                 </div>
                             </div>
@@ -304,19 +304,19 @@ $APPLICATION->SetTitle("MUSORU.NET");
                                 </div>
                                 <div class="fancy-form__field js-fancy-field">
                                     <label class="fancy-form__label" for="step-form-input"> Введите Имя</label>
-                                    <input class="fancy-form__input" id="step-form-input" required="required" type="text" autocomplete="off">
+                                    <input class="fancy-form__input" id="step-form-input" required="required" type="text" autocomplete="off" name="ST_NAME">
                                 </div>
                                 <div class="fancy-form__field js-fancy-field">
                                     <label class="fancy-form__label" for="step-form-phone"> Введите номер телефона</label>
-                                    <input class="fancy-form__input js-phone" id="step-form-phone" required="required" type="text" autocomplete="off">
+                                    <input class="fancy-form__input js-phone" id="step-form-phone" required="required" type="text" autocomplete="off" name="ST_PHONE">
                                 </div>
                                 <div class="fancy-form__field js-fancy-field">
                                     <label class="fancy-form__label" for="step-form-email"> Электронная почта</label>
-                                    <input class="fancy-form__input" id="step-form-email" required="required" type="email" autocomplete="off">
+                                    <input class="fancy-form__input" id="step-form-email" required="required" type="email" autocomplete="off" name="ST_EMAIL">
                                 </div>
                                 <div class="fancy-form__field js-fancy-field">
                                     <label class="fancy-form__label" for="step-form-mess"> Ваш комментарий</label>
-                                    <textarea class="fancy-form__input" id="header-mess" required="required" type="text" autocomplete="off"></textarea>
+                                    <textarea class="fancy-form__input" id="header-mess" required="required" type="text" autocomplete="off" name="ST_COMM"></textarea>
                                 </div>
                                 <input type="submit" class="fancy-form__submit button-fill" value="Отправить заявку">
                                 <div class="fancy-form__info">

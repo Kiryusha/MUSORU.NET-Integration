@@ -93,15 +93,18 @@ $(document).ready(function () {
 		$('.js-form').each(function(){
 			var $form = $(this);
 			$form.ajaxForm({
-				dataType : 'html',
-				success : function(){
+				url: '/local/ajax/main/step-form.php',
+				success : function(responseText){
+					console.log(responseText);
 					$('.js-form-content', $form).hide();
 					$('.js-step-form-nav', $form).hide();
 					$('.step-form-step__title', $form).hide()
 					$('.js-prev-step', $form).hide()
 					$('.step-form-progress-wrapper', $form).hide()
 					$('.js-form-success', $form).fadeIn();
-				}
+				},
+				dataType: 'html',
+        		type: 'POST'
 			});
 
 		});
@@ -134,7 +137,7 @@ $(document).ready(function () {
 			$('.js-trash-item').removeClass('trash-type-item--active');
 			$(this).addClass('trash-type-item--active');
 			$('.js-trash-value').attr('NAME', '');
-			$('.js-trash-value', $(this)).attr('NAME', 'TRASHTYPE');
+			$('.js-trash-value', $(this)).attr('NAME', 'ST_TTYPE');
 			$('.js-next-step', $(this).closest('.js-single-step')).removeClass('button-disabled');
 			trashAllow = false;
 		}
@@ -187,7 +190,7 @@ $(document).ready(function () {
 	        event.preventDefault();
 	        var newDist = $(this).val();
 	        if (newDist) {
-	        $('.js-district-list').append('<div class="step-district__item"><span>' + newDist + '<span class="step-district__item-close js-dist-close"></span></span><input type="hidden" value="' + newDist + '" name="DISTRICTS[]"></div>');
+	        $('.js-district-list').append('<div class="step-district__item"><span>' + newDist + '<span class="step-district__item-close js-dist-close"></span></span><input type="hidden" value="' + newDist + '"></div>');
 	        }
 	        checkDistAmount();
 	        return false;
@@ -216,13 +219,14 @@ $(document).ready(function () {
 		var thisSlide = $('.js-cont-slide').eq(index);
 		$('[type="checkbox"]', $('.js-cont-slide')).attr("checked", false);
 		$('[type="checkbox"]', thisSlide).attr("checked", true);
-		$('input', thisSlide).focus();
+		$('.js-cont-amount').not($('input', thisSlide)).attr('name', '');
+		$('.js-cont-amount', thisSlide).attr('name', 'ST_CNUM').focus();
 		$('.js-cont-type').removeClass('step-cont-type--active');
 		$(this).addClass('step-cont-type--active');
 		if (!$('.js-cont-slide').eq(index).is(':visible')) {
 			$('.js-cont-slide').not(this).hide();
 			thisSlide.fadeIn();
-			$('input', thisSlide).focus();
+			$('.js-cont-amount', thisSlide).attr('name', 'ST_CNUM').focus();
 		}
 		$('.js-next-step', parentStep).removeClass('button-disabled');
 	});
