@@ -101,9 +101,9 @@ $mailParams = array(
     'PRODUCT_ID' => $PRODUCT_ID,
     'NAME' => $_POST['ST_NAME'],
     'PROPS' => $stepMain,
-    'EMAIL' => 'gimun0@gmail.com'
+    'EMAIL' => 'biz@musory-net.ru'
 );
 
-CEvent::Send('RESUME_CREATED', SITE_ID, $mailParams, 'N', 8);
+CEvent::Send('FORM_CREATED', SITE_ID, $mailParams, 'N', 8);
 
 ?>
