@@ -587,23 +587,17 @@ $APPLICATION->SetTitle("MUSORU.NET");
                 <div class="fancy-form__subtitle">
                     Свяжитесь с нами и получите бесплатную оценку стоимости вывоза и утилизации мусора
                 </div>
-                <div class="fancy-form__field js-fancy-field">
-                    <label class="fancy-form__label" for="step-form-input"> Введите Имя</label>
-                    <input class="fancy-form__input" id="step-form-input" required="required" type="text" autocomplete="off">
-                </div>
-                <div class="fancy-form__field js-fancy-field">
-                    <label class="fancy-form__label" for="step-form-phone"> Введите номер телефона</label>
-                    <input class="fancy-form__input js-phone" id="step-form-phone" required="required" type="text" autocomplete="off">
-                </div>
-                <div class="fancy-form__field js-fancy-field">
-                    <label class="fancy-form__label" for="step-form-email"> Электронная почта</label>
-                    <input class="fancy-form__input" id="step-form-email" required="required" type="email" autocomplete="off">
-                </div>
-                <div class="fancy-form__field js-fancy-field">
-                    <label class="fancy-form__label" for="step-form-mess"> Ваш комментарий</label>
-                    <textarea class="fancy-form__input" id="header-mess" required="required" type="text" autocomplete="off"></textarea>
-                </div>
-                <input type="submit" class="fancy-form__submit button-fill" value="Отправить заявку">
+                <?$APPLICATION->IncludeComponent(
+                    "bitrix:main.include",
+                    "",
+                    Array(
+                        "COMPONENT_TEMPLATE" => ".default",
+                        "AREA_FILE_SHOW" => "file",
+                        "AREA_FILE_SUFFIX" => "inc",
+                        "EDIT_TEMPLATE" => "",
+                        "PATH" => "/local/include/form.php"
+                    )
+                );?>
                 <div class="fancy-form__info">
                     или пишите на<br>
                     <a href="mailto:biz@musory-net.ru" class="fancy-form__info-mail">biz@musory-net.ru</a>

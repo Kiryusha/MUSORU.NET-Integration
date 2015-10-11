@@ -203,23 +203,17 @@
 								<div class="fancy-form__title">
 									Обратная связь
 								</div>
-								<div class="fancy-form__field js-fancy-field">
-									<label class="fancy-form__label" for="header-input"> Введите Имя</label>
-									<input class="fancy-form__input" id="header-input" required="required" type="text" autocomplete="off">
-								</div>
-								<div class="fancy-form__field js-fancy-field">
-									<label class="fancy-form__label" for="header-phone"> Введите номер телефона</label>
-									<input class="fancy-form__input js-phone" id="header-phone" required="required" type="text" autocomplete="off">
-								</div>
-								<div class="fancy-form__field js-fancy-field">
-									<label class="fancy-form__label" for="header-email"> Электронная почта</label>
-									<input class="fancy-form__input" id="header-email" required="required" type="email" autocomplete="off">
-								</div>
-								<div class="fancy-form__field js-fancy-field">
-									<label class="fancy-form__label" for="header-mess"> Ваш комментарий</label>
-									<textarea class="fancy-form__input" id="header-mess" required="required" type="text" autocomplete="off"></textarea>
-								</div>
-								<input type="submit" class="fancy-form__submit button-fill" value="Отправить запрос">
+								<?$APPLICATION->IncludeComponent(
+                                    "bitrix:main.include",
+                                    "",
+                                    Array(
+                                        "COMPONENT_TEMPLATE" => ".default",
+                                        "AREA_FILE_SHOW" => "file",
+                                        "AREA_FILE_SUFFIX" => "inc",
+                                        "EDIT_TEMPLATE" => "",
+                                        "PATH" => "/local/include/form.php"
+                                    )
+                                );?>
 								<div class="fancy-form__info">
 									или пишите на<br>
 									<a href="mailto:biz@musory-net.ru" class="fancy-form__info-mail">biz@musory-net.ru</a>
@@ -371,23 +365,17 @@
                                 <div class="fancy-form__title">
                                     Обратная связь
                                 </div>
-                                <div class="fancy-form__field js-fancy-field">
-                                    <label class="fancy-form__label" for="header-input"> Введите Имя</label>
-                                    <input class="fancy-form__input" id="header-input" required="required" type="text" autocomplete="off">
-                                </div>
-                                <div class="fancy-form__field js-fancy-field">
-                                    <label class="fancy-form__label" for="header-phone"> Введите номер телефона</label>
-                                    <input class="fancy-form__input js-phone" id="header-phone" required="required" type="text" autocomplete="off">
-                                </div>
-                                <div class="fancy-form__field js-fancy-field">
-                                    <label class="fancy-form__label" for="header-email"> Электронная почта</label>
-                                    <input class="fancy-form__input" id="header-email" required="required" type="email" autocomplete="off">
-                                </div>
-                                <div class="fancy-form__field js-fancy-field">
-                                    <label class="fancy-form__label" for="header-mess"> Ваш комментарий</label>
-                                    <textarea class="fancy-form__input" id="header-mess" required="required" type="text" autocomplete="off"></textarea>
-                                </div>
-                                <input type="submit" class="fancy-form__submit button-fill" value="Отправить запрос">
+                                <?$APPLICATION->IncludeComponent(
+                                    "bitrix:main.include",
+                                    "",
+                                    Array(
+                                        "COMPONENT_TEMPLATE" => ".default",
+                                        "AREA_FILE_SHOW" => "file",
+                                        "AREA_FILE_SUFFIX" => "inc",
+                                        "EDIT_TEMPLATE" => "",
+                                        "PATH" => "/local/include/form.php"
+                                    )
+                                );?>
                                 <div class="fancy-form__info">
                                     или пишите на<br>
                                     <a href="mailto:biz@musory-net.ru" class="fancy-form__info-mail">biz@musory-net.ru</a>
