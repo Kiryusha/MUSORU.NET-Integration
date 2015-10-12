@@ -266,7 +266,7 @@ body {
 }
 .header__mail-link:after {
   background-image: url("img/spritesheet.png");
-  background-position: -201px -202px;
+  background-position: -222px -202px;
   width: 19px;
   height: 12px;
 }

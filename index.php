@@ -446,35 +446,35 @@ $APPLICATION->SetTitle("MUSORU.NET");
         </h2>
         <div class="client-wrapper">
             <div class="client-wrapper__container clearfix">
-                <a class="client-item" href="#" title="">
+                <a target="_blank" class="client-item" href="http://rzd.ru/" title="">
                     <span class="center-helper"></span>
                     <img class="client-img" src="<?=SITE_TEMPLATE_PATH?>/img/rjd-logo.png" alt="">
                 </a>
-                <a class="client-item" href="#" title="">
+                <a target="_blank" class="client-item" href="http://www.mospromstroy.com/" title="">
                     <span class="center-helper"></span>
                     <img class="client-img" src="<?=SITE_TEMPLATE_PATH?>/img/mosp-logo.png" alt="">
                 </a>
-                <a class="client-item" href="#" title="">
+                <a target="_blank" class="client-item" href="http://www.atitoka.ru/ru/" title="">
                     <span class="center-helper"></span>
                     <img class="client-img" src="<?=SITE_TEMPLATE_PATH?>/img/ati-logo.png" alt="">
                 </a>
-                <a class="client-item" href="#" title="">
+                <a target="_blank" class="client-item" href="http://www.kitos-i.ru/" title="">
                     <span class="center-helper"></span>
                     <img class="client-img" src="<?=SITE_TEMPLATE_PATH?>/img/kit-logo.png" alt="">
                 </a>
-                <a class="client-item" href="#" title="">
+                <a target="_blank" class="client-item" href="http://www.ru.strabag.com/" title="">
                     <span class="center-helper"></span>
                     <img class="client-img" src="<?=SITE_TEMPLATE_PATH?>/img/stra-logo.png" alt="">
                 </a>
-                <a class="client-item" href="#" title="">
+                <a target="_blank" class="client-item" href="http://krost-concern.ru/" title="">
                     <span class="center-helper"></span>
                     <img class="client-img" src="<?=SITE_TEMPLATE_PATH?>/img/krost-logo.png" alt="">
                 </a>
-                <a class="client-item" href="#" title="">
+                <a target="_blank" class="client-item" href="http://www.mon-arch.ru/" title="">
                     <span class="center-helper"></span>
                     <img class="client-img" src="<?=SITE_TEMPLATE_PATH?>/img/mon-logo.png" alt="">
                 </a>
-                <a class="client-item" href="#" title="">
+                <a target="_blank" class="client-item" href="http://texnodigger.ru/" title="">
                     <span class="center-helper"></span>
                     <img class="client-img" src="<?=SITE_TEMPLATE_PATH?>/img/td-logo.png" alt="">
                 </a>

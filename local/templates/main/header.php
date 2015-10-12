@@ -163,7 +163,7 @@
 								<a href="tel:+79859999089" class="header__tel">
 									8 985 9999 089
 								</a>
-								<a href="#" class="header__lang">
+								<a href="#" class="header__lang" rel="nofollow" title="English" onclick="window.open ('http://translate.google.com/translate?u='+encodeURIComponent(location.href)+'&langpair=id%cen&ru=en&sl=ru&tl=en');">
 									English version:
 								</a>
 								<a href="#" class="header__mail-link js-popup-open">
@@ -174,10 +174,10 @@
 										Компания в деловых соц. сетях:
 									</div>
 									<div class="header__social-list">
-										<a href="#" class="header__social-item header__social-item--in"></a>
-										<a href="#" class="header__social-item header__social-item--gg"></a>
-										<a href="#" class="header__social-item header__social-item--tw"></a>
-										<a href="#" class="header__social-item header__social-item--fb"></a>
+										<a target="_blank" href="https://www.linkedin.com/company/2projecta-web-project-management" class="header__social-item header__social-item--in"></a>
+										<a target="_blank" href="https://plus.google.com/u/0/b/112649735483041645758/112649735483041645758/about/p/pub?hl=en&ppsrc=GPDA2" class="header__social-item header__social-item--gg"></a>
+										<a target="_blank" href="https://twitter.com/MUSORNET" class="header__social-item header__social-item--tw"></a>
+										<a target="_blank" href="https://www.facebook.com/musory.net" class="header__social-item header__social-item--fb"></a>
 									</div>
 								</div>
 							</div>
@@ -338,7 +338,7 @@
                                 </li>
                             </ul>
                             <div class="header-submenu__soc-block">
-                                <a href="#" class="header__lang header__lang--inner">
+                                <a href="#" class="header__lang header__lang--inner" rel="nofollow" title="English" onclick="window.open ('http://translate.google.com/translate?u='+encodeURIComponent(location.href)+'&langpair=id%cen&ru=en');">
                                     English version:
                                 </a><br>
                                 <a href="#" class="header__mail-link header__mail-link--inner js-popup-open">
@@ -349,10 +349,10 @@
                                         Компания в деловых соц. сетях:
                                     </div>
                                     <div class="footer__social-list">
-                                        <a href="#" class="footer__social-item footer__social-item--in"></a>
-                                        <a href="#" class="footer__social-item footer__social-item--gg"></a>
-                                        <a href="#" class="footer__social-item footer__social-item--tw"></a>
-                                        <a href="#" class="footer__social-item footer__social-item--fb"></a>
+                                        <a target="_blank" href="https://www.linkedin.com/company/2projecta-web-project-management" class="footer__social-item footer__social-item--in"></a>
+                                        <a target="_blank" href="https://plus.google.com/u/0/b/112649735483041645758/112649735483041645758/about/p/pub?hl=en&ppsrc=GPDA2" class="footer__social-item footer__social-item--gg"></a>
+                                        <a target="_blank" href="https://twitter.com/MUSORNET" class="footer__social-item footer__social-item--tw"></a>
+                                        <a target="_blank" href="https://www.facebook.com/musory.net" class="footer__social-item footer__social-item--fb"></a>
                                     </div>
                                 </div>
                             </div>
