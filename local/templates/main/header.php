@@ -28,7 +28,7 @@
 	</head>
 	<body>
 		<div class="page-wrapper <?= '/' != $page_url ? ' page-wrapper--inner' : ''; ?>">
-			<div class="main">
+			<div class="main <?= '/' != $page_url ? ' main--inner' : ''; ?>">
 			<? if ('/' == $page_url): ?>
 				<header class="header">
 					<div class="video-wrapper">
@@ -151,6 +151,11 @@
 												Поставщикам
 											</a>
 										</li>
+                                        <li class="header-submenu__item">
+                                            <a href="/docs/prices" class="header-submenu__link">
+                                                Цены
+                                            </a>
+                                        </li>
 										<li class="header-submenu__item">
 											<a href="#" class="header-submenu__link header-submenu__link--download">
 												Договор на вывоз мусора
@@ -329,6 +334,11 @@
                                 <li class="header-submenu__item">
                                     <a href="/docs/producers" class="header-submenu__link">
                                         Поставщикам
+                                    </a>
+                                </li>
+                                <li class="header-submenu__item">
+                                    <a href="/docs/prices" class="header-submenu__link">
+                                        Цены
                                     </a>
                                 </li>
                                 <li class="header-submenu__item">

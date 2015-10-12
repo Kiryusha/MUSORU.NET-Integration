@@ -83,8 +83,11 @@ body {
 .page-wrapper--inner {
   background: #fff;
 }
-.main--no-footer {
-  padding-bottom: 150px;
+.main {
+  padding-bottom: 225px;
+}
+.main--inner {
+  padding-bottom: 265px;
 }
 .history-bg {
   background-image: url("img/history-bg.jpg");
@@ -1252,7 +1255,7 @@ body {
   background-color: #fff;
   text-align: center;
   border-top: 1px solid #ccc;
-  min-height: 720px;
+  padding-bottom: 20px;
 }
 .articles-section-wrapper--all {
   border: none;
@@ -1379,7 +1382,11 @@ body {
 .footer {
   height: 225px;
   background: #fff;
-  position: relative;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  margin: 0 auto;
 }
 .footer__gg-map {
   width: 63%;
@@ -1722,6 +1729,12 @@ video {
 }
 .page-content__ul-list--left {
   padding-left: 20px;
+}
+.detail-section p {
+  text-align: left;
+  font-size: 18px;
+  font-weight: 100;
+  color: #999;
 }
 .tabs-section--park {
   position: relative;

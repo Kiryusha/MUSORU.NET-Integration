@@ -48,16 +48,16 @@ $APPLICATION->SetTitle("Title");
                                 1 КОНТЕЙНЕР
                             </td>
                             <td class="price-table__cell">
-                                <span class="price-table__number">10 000 </span><span class="rouble">a</span>
+                                <span class="price-table__number">5 000 </span><span class="rouble">a</span>
                             </td>
                             <td class="price-table__cell">
-                                <span class="price-table__number">12 000 </span><span class="rouble">a</span>
+                                <span class="price-table__number">5 000 </span><span class="rouble">a</span>
                             </td>
                             <td class="price-table__cell">
-                                <span class="price-table__number">11 000 </span><span class="rouble">a</span>
+                                <span class="price-table__number">6 500 </span><span class="rouble">a</span>
                             </td>
                             <td class="price-table__cell">
-                                <span class="price-table__number">7 500 </span><span class="rouble">a</span>
+                                <span class="price-table__number">4 000 </span><span class="rouble">a</span>
                             </td>
                         </tr>
                         <tr class="price-table__row">
@@ -65,16 +65,16 @@ $APPLICATION->SetTitle("Title");
                                 ДО 10 КОНТЕЙНЕРОВ
                             </td>
                             <td class="price-table__cell">
-                                <span class="price-table__number">9 800 </span><span class="rouble">a</span>
+                                <span class="price-table__number">4 300 </span><span class="rouble">a</span>
                             </td>
                             <td class="price-table__cell">
-                                <span class="price-table__number">11 800 </span><span class="rouble">a</span>
+                                <span class="price-table__number">4 300 </span><span class="rouble">a</span>
                             </td>
                             <td class="price-table__cell">
-                                <span class="price-table__number">10 500 </span><span class="rouble">a</span>
+                                <span class="price-table__number">6 300 </span><span class="rouble">a</span>
                             </td>
                             <td class="price-table__cell">
-                                <span class="price-table__number">7 300 </span><span class="rouble">a</span>
+                                <span class="price-table__number">3 800 </span><span class="rouble">a</span>
                             </td>
                         </tr>
                         <tr class="price-table__row">
@@ -82,33 +82,16 @@ $APPLICATION->SetTitle("Title");
                                 ДО 30 КОНТЕЙНЕРОВ
                             </td>
                             <td class="price-table__cell">
-                                <span class="price-table__number">9 500 </span><span class="rouble">a</span>
+                                <span class="price-table__number">4 000 </span><span class="rouble">a</span>
                             </td>
                             <td class="price-table__cell">
-                                <span class="price-table__number">11 500 </span><span class="rouble">a</span>
+                                <span class="price-table__number">4 000 </span><span class="rouble">a</span>
                             </td>
                             <td class="price-table__cell">
-                                <span class="price-table__number">10 300 </span><span class="rouble">a</span>
+                                <span class="price-table__number">6 000 </span><span class="rouble">a</span>
                             </td>
                             <td class="price-table__cell">
-                                <span class="price-table__number">7 000 </span><span class="rouble">a</span>
-                            </td>
-                        </tr>
-                        <tr class="price-table__row">
-                            <td class="price-table__cell price-table__cell--first-column">
-                                1 КОНТЕЙНЕР
-                            </td>
-                            <td class="price-table__cell">
-                                <span class="price-table__number">10 000 </span><span class="rouble">a</span>
-                            </td>
-                            <td class="price-table__cell">
-                                <span class="price-table__number">12 000 </span><span class="rouble">a</span>
-                            </td>
-                            <td class="price-table__cell">
-                                <span class="price-table__number">11 000 </span><span class="rouble">a</span>
-                            </td>
-                            <td class="price-table__cell">
-                                <span class="price-table__number">7 500 </span><span class="rouble">a</span>
+                                <span class="price-table__number">3 500 </span><span class="rouble">a</span>
                             </td>
                         </tr>
                         <tr class="price-table__row">
@@ -161,16 +144,16 @@ $APPLICATION->SetTitle("Title");
                                 1 КОНТЕЙНЕР
                             </td>
                             <td class="price-table__cell">
-                                <span class="price-table__number">10 000 </span><span class="rouble">a</span>
+                                <span class="price-table__number">9 500 </span><span class="rouble">a</span>
                             </td>
                             <td class="price-table__cell">
-                                <span class="price-table__number">12 000 </span><span class="rouble">a</span>
+                                <span class="price-table__number">10 500 </span><span class="rouble">a</span>
                             </td>
                             <td class="price-table__cell">
-                                <span class="price-table__number">11 000 </span><span class="rouble">a</span>
+                                <span class="price-table__number">12 500 </span><span class="rouble">a</span>
                             </td>
                             <td class="price-table__cell">
-                                <span class="price-table__number">7 500 </span><span class="rouble">a</span>
+                                <span class="price-table__number">6 500 </span><span class="rouble">a</span>
                             </td>
                         </tr>
                         <tr class="price-table__row">
@@ -178,16 +161,16 @@ $APPLICATION->SetTitle("Title");
                                 ДО 10 КОНТЕЙНЕРОВ
                             </td>
                             <td class="price-table__cell">
-                                <span class="price-table__number">9 800 </span><span class="rouble">a</span>
+                                <span class="price-table__number">9 300 </span><span class="rouble">a</span>
                             </td>
                             <td class="price-table__cell">
-                                <span class="price-table__number">11 800 </span><span class="rouble">a</span>
+                                <span class="price-table__number">10 300 </span><span class="rouble">a</span>
                             </td>
                             <td class="price-table__cell">
-                                <span class="price-table__number">10 500 </span><span class="rouble">a</span>
+                                <span class="price-table__number">12 300 </span><span class="rouble">a</span>
                             </td>
                             <td class="price-table__cell">
-                                <span class="price-table__number">7 300 </span><span class="rouble">a</span>
+                                <span class="price-table__number">6 500 </span><span class="rouble">a</span>
                             </td>
                         </tr>
                         <tr class="price-table__row">
@@ -195,21 +178,7 @@ $APPLICATION->SetTitle("Title");
                                 ДО 30 КОНТЕЙНЕРОВ
                             </td>
                             <td class="price-table__cell">
-                                <span class="price-table__number">9 500 </span><span class="rouble">a</span>
-                            </td>
-                            <td class="price-table__cell">
-                                <span class="price-table__number">11 500 </span><span class="rouble">a</span>
-                            </td>
-                            <td class="price-table__cell">
-                                <span class="price-table__number">10 300 </span><span class="rouble">a</span>
-                            </td>
-                            <td class="price-table__cell">
-                                <span class="price-table__number">7 000 </span><span class="rouble">a</span>
-                            </td>
-                        </tr>
-                        <tr class="price-table__row">
-                            <td class="price-table__cell price-table__cell--first-column">
-                                1 КОНТЕЙНЕР
+                                <span class="price-table__number">9 000 </span><span class="rouble">a</span>
                             </td>
                             <td class="price-table__cell">
                                 <span class="price-table__number">10 000 </span><span class="rouble">a</span>
@@ -218,10 +187,7 @@ $APPLICATION->SetTitle("Title");
                                 <span class="price-table__number">12 000 </span><span class="rouble">a</span>
                             </td>
                             <td class="price-table__cell">
-                                <span class="price-table__number">11 000 </span><span class="rouble">a</span>
-                            </td>
-                            <td class="price-table__cell">
-                                <span class="price-table__number">7 500 </span><span class="rouble">a</span>
+                                <span class="price-table__number">6 000 </span><span class="rouble">a</span>
                             </td>
                         </tr>
                         <tr class="price-table__row">
@@ -318,23 +284,6 @@ $APPLICATION->SetTitle("Title");
                             </td>
                             <td class="price-table__cell">
                                 <span class="price-table__number">7 000 </span><span class="rouble">a</span>
-                            </td>
-                        </tr>
-                        <tr class="price-table__row">
-                            <td class="price-table__cell price-table__cell--first-column">
-                                1 КОНТЕЙНЕР
-                            </td>
-                            <td class="price-table__cell">
-                                <span class="price-table__number">10 000 </span><span class="rouble">a</span>
-                            </td>
-                            <td class="price-table__cell">
-                                <span class="price-table__number">12 000 </span><span class="rouble">a</span>
-                            </td>
-                            <td class="price-table__cell">
-                                <span class="price-table__number">11 000 </span><span class="rouble">a</span>
-                            </td>
-                            <td class="price-table__cell">
-                                <span class="price-table__number">7 500 </span><span class="rouble">a</span>
                             </td>
                         </tr>
                         <tr class="price-table__row">

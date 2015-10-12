@@ -1,5 +1,5 @@
 
-				<div class="footer clearfix">
+				<div class="footer clearfix<?= '/' != $page_url ? ' footer--inner' : ''; ?>">
 					<div class="footer__gg-map" id="gg-map"></div>
 					<div class="footer__copyrights">
 						<div class="footer__owner">
