@@ -562,7 +562,7 @@ $APPLICATION->SetTitle("MUSORU.NET");
                 "DETAIL_PAGER_SHOW_ALL" => "Y",
                 "PAGER_TEMPLATE" => ".default",
                 "DISPLAY_TOP_PAGER" => "N",
-                "DISPLAY_BOTTOM_PAGER" => "Y",
+                "DISPLAY_BOTTOM_PAGER" => "N",
                 "PAGER_TITLE" => "Новости",
                 "PAGER_SHOW_ALWAYS" => "N",
                 "PAGER_DESC_NUMBERING" => "N",

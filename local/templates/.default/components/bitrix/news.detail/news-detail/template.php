@@ -12,7 +12,6 @@
 /** @var CBitrixComponent $component */
 $this->setFrameMode(true);
 ?>
-
 <section class="breadcrumbs">
     <div class="breadcrumbs__content">
         <a href="/" class="breadcrumbs__item">
@@ -35,13 +34,4 @@ $this->setFrameMode(true);
             </h1>
             <?=$arResult["DETAIL_TEXT"]?>
         </div>
-        <div class="articles-section articles-section--detail">
-            <div class="articles-section__item-container">
-                <h2 class="page-content__title page-content__title--small">
-                    Интересные статьи
-                </h2>
 
-            </div>
-        </div>
-    </div>
-</section>
