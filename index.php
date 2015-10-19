@@ -1,6 +1,6 @@
 <?
 require($_SERVER["DOCUMENT_ROOT"]."/bitrix/header.php");
-$APPLICATION->SetTitle("MUSORU.NET");
+$APPLICATION->SetTitle("MUSORY-NET.RU");
 ?>
 
 <section class="step-form-wrapper">

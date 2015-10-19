@@ -1,6 +1,6 @@
 			<? if ('/' == $page_url): ?>
 
-				<div class="footer clearfix<?= '/' != $page_url ? ' footer--inner' : ''; ?>">
+				<div class="footer clearfix">
 					<div class="footer__gg-map" id="gg-map"></div>
 					<div class="footer__copyrights">
 						<div class="footer__owner">
@@ -27,8 +27,8 @@
 
 			<? else: ?>
 
-				<div class="footer clearfix<?= '/' != $page_url ? ' footer--inner' : ''; ?>">
-					<div class="footer__copyrights">
+				<div class="footer footer--single">
+					<div class="footer__copyrights footer__copyrights--single">
 						<div class="footer__owner">
 							© 2015 MUSORY-NET. 	ALL RIGHTS RESERVED
 						</div>

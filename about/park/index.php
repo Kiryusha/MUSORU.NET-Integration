@@ -1,6 +1,6 @@
 <?
 require($_SERVER["DOCUMENT_ROOT"]."/bitrix/header.php");
-$APPLICATION->SetTitle("Title");
+$APPLICATION->SetTitle("Парк техники");
 ?>
 
 <section class="breadcrumbs">
@@ -69,9 +69,11 @@ $APPLICATION->SetTitle("Title");
                                      data-cycle-timeout=0
                                      data-cycle-pager="+ .cycle-pager"
                                     >
-                                    <img src="<?=SITE_TEMPLATE_PATH?>/img/cont8m-slider.png" alt="" class="park-item__img">
-                                    <img src="<?=SITE_TEMPLATE_PATH?>/img/cont8m-slider.png" alt="" class="park-item__img">
-                                    <img src="<?=SITE_TEMPLATE_PATH?>/img/cont8m-slider.png" alt="" class="park-item__img">
+                                    <img src="<?=SITE_TEMPLATE_PATH?>/img/8kubov/81.png" alt="" class="park-item__img">
+                                    <img src="<?=SITE_TEMPLATE_PATH?>/img/8kubov/82.png" alt="" class="park-item__img">
+                                    <img src="<?=SITE_TEMPLATE_PATH?>/img/8kubov/83.png" alt="" class="park-item__img">
+                                    <img src="<?=SITE_TEMPLATE_PATH?>/img/8kubov/84.png" alt="" class="park-item__img">
+                                    <img src="<?=SITE_TEMPLATE_PATH?>/img/8kubov/85.png" alt="" class="park-item__img">
                                 </div>
                                 <div class="cycle-pager"></div>
                             </div>
@@ -83,9 +85,10 @@ $APPLICATION->SetTitle("Title");
                                      data-cycle-timeout=0
                                      data-cycle-pager="+ .cycle-pager"
                                     >
-                                    <img src="<?=SITE_TEMPLATE_PATH?>/img/cont20m-slider.png" alt="" class="park-item__img">
-                                    <img src="<?=SITE_TEMPLATE_PATH?>/img/cont20m-slider.png" alt="" class="park-item__img">
-                                    <img src="<?=SITE_TEMPLATE_PATH?>/img/cont20m-slider.png" alt="" class="park-item__img">
+                                    <img src="<?=SITE_TEMPLATE_PATH?>/img/20kubov/201.png" alt="" class="park-item__img">
+                                    <img src="<?=SITE_TEMPLATE_PATH?>/img/20kubov/202.png" alt="" class="park-item__img">
+                                    <img src="<?=SITE_TEMPLATE_PATH?>/img/20kubov/multi.png" alt="" class="park-item__img">
+                                    <img src="<?=SITE_TEMPLATE_PATH?>/img/20kubov/multi2.png" alt="" class="park-item__img">
                                 </div>
                                 <div class="cycle-pager"></div>
                             </div>
@@ -115,9 +118,10 @@ $APPLICATION->SetTitle("Title");
                                      data-cycle-timeout=0
                                      data-cycle-pager="+ .cycle-pager"
                                     >
-                                    <img src="<?=SITE_TEMPLATE_PATH?>/img/cont27m-slider.png" alt="" class="park-item__img">
-                                    <img src="<?=SITE_TEMPLATE_PATH?>/img/cont27m-slider.png" alt="" class="park-item__img">
-                                    <img src="<?=SITE_TEMPLATE_PATH?>/img/cont27m-slider.png" alt="" class="park-item__img">
+                                    <img src="<?=SITE_TEMPLATE_PATH?>/img/27cubicmet/271.png" alt="" class="park-item__img">
+                                    <img src="<?=SITE_TEMPLATE_PATH?>/img/27cubicmet/272.png" alt="" class="park-item__img">
+                                    <img src="<?=SITE_TEMPLATE_PATH?>/img/27cubicmet/273.png" alt="" class="park-item__img">
+                                    <img src="<?=SITE_TEMPLATE_PATH?>/img/27cubicmet/274.png" alt="" class="park-item__img">
                                 </div>
                                 <div class="cycle-pager"></div>
                             </div>
@@ -137,11 +141,11 @@ $APPLICATION->SetTitle("Title");
                         <div class="park-item">
                             <div class="park-item__text-block">
                                 <div class="park-item__title">
-                                    КОНТЕЙНЕР 8 КУБОВ
+                                    КАМАЗ
                                 </div>
                                 <div class="park-item__text">
-                                    Данные контейнеры (8м3) предназначены для утилизации ТБО из квартир. Контейнеры данного объема крайне удоюны при заезде в узкие дворы с ограниченной территорией, что и обуславливает их повсеместное использование. Если Вы затеяли ремонт к квартире или решили достроиить дачу, то применение такого контейнера - это практичное решение.<br>
-                                    Максимлаьная грузоподъемность данного контейнера - 5 тыс. кг. Контейнеры такого типа изготовлены из прочных материалов, что обуславливает их устойчивость против ржавения, неблагоприятных погодных условий и физических повреждений.
+                                    Предназначен для погрузки, транспортировки и отгрузки мусора и отходов разного типа. Механизм загрузки мусора: задний. Применяемые контейнеры: 20 куб.м. и 27 куб.м.<br>
+                                    Надежны мусоровоз, который рассчитан для транспортировки контейнеров большого объема. Технические характеристики позволяют камазу-контейнеровозу выполнять все возложенные на него задачи на отлично.
                                 </div>
                             </div>
                             <div class="park-item__slider-wrapper">
@@ -150,9 +154,10 @@ $APPLICATION->SetTitle("Title");
                                      data-cycle-timeout=0
                                      data-cycle-pager="+ .cycle-pager"
                                     >
-                                    <img src="<?=SITE_TEMPLATE_PATH?>/img/cont8m-slider.png" alt="" class="park-item__img">
-                                    <img src="<?=SITE_TEMPLATE_PATH?>/img/cont8m-slider.png" alt="" class="park-item__img">
-                                    <img src="<?=SITE_TEMPLATE_PATH?>/img/cont8m-slider.png" alt="" class="park-item__img">
+                                    <img src="<?=SITE_TEMPLATE_PATH?>/img/KAMAZ/kam.png" alt="" class="park-item__img">
+                                    <img src="<?=SITE_TEMPLATE_PATH?>/img/KAMAZ/kama.png" alt="" class="park-item__img">
+                                    <img src="<?=SITE_TEMPLATE_PATH?>/img/KAMAZ/kamaz.png" alt="" class="park-item__img">
+                                    <img src="<?=SITE_TEMPLATE_PATH?>/img/KAMAZ/kamazochka.png" alt="" class="park-item__img">
                                 </div>
                                 <div class="cycle-pager"></div>
                             </div>
@@ -164,43 +169,17 @@ $APPLICATION->SetTitle("Title");
                                      data-cycle-timeout=0
                                      data-cycle-pager="+ .cycle-pager"
                                     >
-                                    <img src="<?=SITE_TEMPLATE_PATH?>/img/cont20m-slider.png" alt="" class="park-item__img">
-                                    <img src="<?=SITE_TEMPLATE_PATH?>/img/cont20m-slider.png" alt="" class="park-item__img">
-                                    <img src="<?=SITE_TEMPLATE_PATH?>/img/cont20m-slider.png" alt="" class="park-item__img">
+                                    <img src="<?=SITE_TEMPLATE_PATH?>/img/ZIL/zilloshka.png" alt="" class="park-item__img">
                                 </div>
                                 <div class="cycle-pager"></div>
                             </div>
                             <div class="park-item__text-block">
                                 <div class="park-item__title">
-                                    КОНТЕЙНЕР 20 КУБОВ
+                                    ЗИЛ
                                 </div>
                                 <div class="park-item__text">
-                                    Контейнеры объемом 20 кубических метров нашли свое применение в вывозе разных типов мусора. Контейнер такой разновидности можно применять как для транспортировки снега, так и для вывоза почвы и ТБО. 20-ти кубовых контейнер также подходит для вывоза ТБО и строительного мусора (деревянные и железобетонные конструкции).<br>
-                                    Контейнер крепится к камазу специфическим образом. Механизм подачи и захвата контейнера называется специальным термином “система Мультилифт”.
+                                    Машины такого типа предназначены для вывоза, транспортировки и выгрузки стандартных контейнеров объемом 8 куб. м. Грузоподъемность данного бункеровоза составляет 5000 кг. Зил снабжен контейнеровозной надстройкой, в которой съемный 8-ми кубовый контейнер является съемной частью. Механизм подъема контейнера: портальный подъемник со строповочным механизмом. Разгрузку же контейнера зил осуществляет аналогично как это происходит у машин типа: самосвал.
                                 </div>
-                            </div>
-                        </div>
-                        <div class="park-item">
-                            <div class="park-item__text-block">
-                                <div class="park-item__title">
-                                    КОНТЕЙНЕР 27 КУБОВ
-                                </div>
-                                <div class="park-item__text">
-                                    Данные контейнеры (8м3) предназначены для утилизации ТБО из квартир. Контейнеры данного объема крайне удоюны при заезде в узкие дворы с ограниченной территорией, что и обуславливает их повсеместное использование. Если Вы затеяли ремонт к квартире или решили достроиить дачу, то применение такого контейнера - это практичное решение.<br>
-                                    Максимлаьная грузоподъемность данного контейнера - 5 тыс. кг. Контейнеры такого типа изготовлены из прочных материалов, что обуславливает их устойчивость против ржавения, неблагоприятных погодных условий и физических повреждений.
-                                </div>
-                            </div>
-                            <div class="park-item__slider-wrapper">
-                                <div class="park-item__slider cycle-slideshow"
-                                     data-cycle-fx=scrollHorz
-                                     data-cycle-timeout=0
-                                     data-cycle-pager="+ .cycle-pager"
-                                    >
-                                    <img src="<?=SITE_TEMPLATE_PATH?>/img/cont27m-slider.png" alt="" class="park-item__img">
-                                    <img src="<?=SITE_TEMPLATE_PATH?>/img/cont27m-slider.png" alt="" class="park-item__img">
-                                    <img src="<?=SITE_TEMPLATE_PATH?>/img/cont27m-slider.png" alt="" class="park-item__img">
-                                </div>
-                                <div class="cycle-pager"></div>
                             </div>
                         </div>
                     </section>
@@ -218,11 +197,11 @@ $APPLICATION->SetTitle("Title");
                         <div class="park-item">
                             <div class="park-item__text-block">
                                 <div class="park-item__title">
-                                    КОНТЕЙНЕР 8 КУБОВ
+                                    Bobcat
                                 </div>
                                 <div class="park-item__text">
-                                    Данные контейнеры (8м3) предназначены для утилизации ТБО из квартир. Контейнеры данного объема крайне удоюны при заезде в узкие дворы с ограниченной территорией, что и обуславливает их повсеместное использование. Если Вы затеяли ремонт к квартире или решили достроиить дачу, то применение такого контейнера - это практичное решение.<br>
-                                    Максимлаьная грузоподъемность данного контейнера - 5 тыс. кг. Контейнеры такого типа изготовлены из прочных материалов, что обуславливает их устойчивость против ржавения, неблагоприятных погодных условий и физических повреждений.
+                                    Погрузчик американской фирмы Bobcat - это надежный инструмент механизированной погрузки снега и сыпучих субстанций. Погрузчик обладает достаточной вместимостью ковша (0,4 м3), которая позволяет ему эффективно работать в сложных зимних условиях.<br>
+                                    Его эргономичные размеры дают возможность собирать снег и другие строительные сыпучие остатки на участках с ограниченным пространством. Помимо погрузки снега и гранулированного строительного мусора мини-погрузчик может заниматься складированием мусора на территории строительства.
                                 </div>
                             </div>
                             <div class="park-item__slider-wrapper">
@@ -231,55 +210,7 @@ $APPLICATION->SetTitle("Title");
                                      data-cycle-timeout=0
                                      data-cycle-pager="+ .cycle-pager"
                                     >
-                                    <img src="<?=SITE_TEMPLATE_PATH?>/img/cont8m-slider.png" alt="" class="park-item__img">
-                                    <img src="<?=SITE_TEMPLATE_PATH?>/img/cont8m-slider.png" alt="" class="park-item__img">
-                                    <img src="<?=SITE_TEMPLATE_PATH?>/img/cont8m-slider.png" alt="" class="park-item__img">
-                                </div>
-                                <div class="cycle-pager"></div>
-                            </div>
-                        </div>
-                        <div class="park-item">
-                            <div class="park-item__slider-wrapper">
-                                <div class="park-item__slider cycle-slideshow"
-                                     data-cycle-fx=scrollHorz
-                                     data-cycle-timeout=0
-                                     data-cycle-pager="+ .cycle-pager"
-                                    >
-                                    <img src="<?=SITE_TEMPLATE_PATH?>/img/cont20m-slider.png" alt="" class="park-item__img">
-                                    <img src="<?=SITE_TEMPLATE_PATH?>/img/cont20m-slider.png" alt="" class="park-item__img">
-                                    <img src="<?=SITE_TEMPLATE_PATH?>/img/cont20m-slider.png" alt="" class="park-item__img">
-                                </div>
-                                <div class="cycle-pager"></div>
-                            </div>
-                            <div class="park-item__text-block">
-                                <div class="park-item__title">
-                                    КОНТЕЙНЕР 20 КУБОВ
-                                </div>
-                                <div class="park-item__text">
-                                    Контейнеры объемом 20 кубических метров нашли свое применение в вывозе разных типов мусора. Контейнер такой разновидности можно применять как для транспортировки снега, так и для вывоза почвы и ТБО. 20-ти кубовых контейнер также подходит для вывоза ТБО и строительного мусора (деревянные и железобетонные конструкции).<br>
-                                    Контейнер крепится к камазу специфическим образом. Механизм подачи и захвата контейнера называется специальным термином “система Мультилифт”.
-                                </div>
-                            </div>
-                        </div>
-                        <div class="park-item">
-                            <div class="park-item__text-block">
-                                <div class="park-item__title">
-                                    КОНТЕЙНЕР 27 КУБОВ
-                                </div>
-                                <div class="park-item__text">
-                                    Данные контейнеры (8м3) предназначены для утилизации ТБО из квартир. Контейнеры данного объема крайне удоюны при заезде в узкие дворы с ограниченной территорией, что и обуславливает их повсеместное использование. Если Вы затеяли ремонт к квартире или решили достроиить дачу, то применение такого контейнера - это практичное решение.<br>
-                                    Максимлаьная грузоподъемность данного контейнера - 5 тыс. кг. Контейнеры такого типа изготовлены из прочных материалов, что обуславливает их устойчивость против ржавения, неблагоприятных погодных условий и физических повреждений.
-                                </div>
-                            </div>
-                            <div class="park-item__slider-wrapper">
-                                <div class="park-item__slider cycle-slideshow"
-                                     data-cycle-fx=scrollHorz
-                                     data-cycle-timeout=0
-                                     data-cycle-pager="+ .cycle-pager"
-                                    >
-                                    <img src="<?=SITE_TEMPLATE_PATH?>/img/cont27m-slider.png" alt="" class="park-item__img">
-                                    <img src="<?=SITE_TEMPLATE_PATH?>/img/cont27m-slider.png" alt="" class="park-item__img">
-                                    <img src="<?=SITE_TEMPLATE_PATH?>/img/cont27m-slider.png" alt="" class="park-item__img">
+                                    <img src="<?=SITE_TEMPLATE_PATH?>/img/bobcat/bbcat.png" alt="" class="park-item__img">
                                 </div>
                                 <div class="cycle-pager"></div>
                             </div>
