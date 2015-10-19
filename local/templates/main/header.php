@@ -62,12 +62,12 @@
 											</a>
 										</li>
 										<li class="header__nav-item js-nav-out">
-											<a href="#" class="header__nav-link">
+											<a href="/docs/prices" class="header__nav-link">
 												Стоимость услуг
 											</a>
 										</li>
 										<li class="header__nav-item js-nav-out">
-											<a href="#" class="header__nav-link">
+											<a href="/news/" class="header__nav-link">
 												Статьи
 											</a>
 										</li>
@@ -133,11 +133,6 @@
 												Контакты
 											</a>
 										</li>
-										<li class="header-submenu__item">
-											<a href="#" class="header-submenu__link">
-												Карта сайта
-											</a>
-										</li>
 									</ul>
 									<ul class="header-submenu__list">
 										<li class="header-submenu__item">
@@ -151,11 +146,6 @@
 												Поставщикам
 											</a>
 										</li>
-                                        <li class="header-submenu__item">
-                                            <a href="/docs/prices" class="header-submenu__link">
-                                                Цены
-                                            </a>
-                                        </li>
 										<li class="header-submenu__item">
 											<a href="#" class="header-submenu__link header-submenu__link--download">
 												Договор на вывоз мусора
@@ -316,11 +306,6 @@
                                 <li class="header-submenu__item">
                                     <a href="/about/contacts" class="header-submenu__link">
                                         Контакты
-                                    </a>
-                                </li>
-                                <li class="header-submenu__item">
-                                    <a href="#" class="header-submenu__link">
-                                        Карта сайта
                                     </a>
                                 </li>
                             </ul>

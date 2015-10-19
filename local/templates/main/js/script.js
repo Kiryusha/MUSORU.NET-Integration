@@ -217,8 +217,8 @@ $(document).ready(function () {
 		var parentStep = $(this).closest('.js-single-step');
 		var index = $(this).index();
 		var thisSlide = $('.js-cont-slide').eq(index);
-		$('[type="checkbox"]', $('.js-cont-slide')).attr("checked", false);
-		$('[type="checkbox"]', thisSlide).attr("checked", true);
+		$('.js-hidden-cont-type', $('.js-cont-slide')).attr('name', '');
+		$('.js-hidden-cont-type', thisSlide).attr('name', 'ST_CTYPE');
 		$('.js-cont-amount').not($('input', thisSlide)).attr('name', '');
 		$('.js-cont-amount', thisSlide).attr('name', 'ST_CNUM').focus();
 		$('.js-cont-type').removeClass('step-cont-type--active');

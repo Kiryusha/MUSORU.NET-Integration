@@ -101,7 +101,7 @@ $mailParams = array(
     'PRODUCT_ID' => $PRODUCT_ID,
     'NAME' => $_POST['ST_NAME'],
     'PROPS' => $stepMain,
-    'EMAIL' => 'biz@musory-net.ru'
+    'EMAIL' => 'borhoff@gmail.com, biz@musory-net.ru'
 );
 
 CEvent::Send('FORM_CREATED', SITE_ID, $mailParams, 'N', 8);

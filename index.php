@@ -240,7 +240,7 @@ $APPLICATION->SetTitle("MUSORU.NET");
                                         <div class="cont-type-slider__input-wrapper-text">
                                             Количество контейнеров:
                                         </div>
-                                        <input type="checkbox" class="cont-type-slider__checkbox hidden" name="ST_CTYPE" value="8 кубометров">
+                                        <input type="hidden" class="cont-type-slider__hidden-input hidden js-hidden-cont-type" name="" value="8 кубометров">
                                         <input type="text" class="cont-type-slider__input js-cont-amount">
                                     </div>
                                 </div>
@@ -257,7 +257,7 @@ $APPLICATION->SetTitle("MUSORU.NET");
                                         <div class="cont-type-slider__input-wrapper-text">
                                             Количество контейнеров:
                                         </div>
-                                        <input type="checkbox" class="cont-type-slider__checkbox hidden" name="ST_CTYPE" value="20 кубометров">
+                                        <input type="hidden" class="cont-type-slider__hidden-input hidden js-hidden-cont-type" name="" value="20 кубометров">
                                         <input type="text" class="cont-type-slider__input js-cont-amount">
                                     </div>
                                 </div>
@@ -274,7 +274,7 @@ $APPLICATION->SetTitle("MUSORU.NET");
                                         <div class="cont-type-slider__input-wrapper-text">
                                             Количество контейнеров:
                                         </div>
-                                        <input type="checkbox" class="cont-type-slider__checkbox hidden" name="ST_CTYPE" value="27 кубометров">
+                                        <input type="hidden" class="cont-type-slider__hidden-input hidden js-hidden-cont-type" name="" value="27 кубометров">
                                         <input type="text" class="cont-type-slider__input js-cont-amount">
                                     </div>
                                 </div>
@@ -517,7 +517,7 @@ $APPLICATION->SetTitle("MUSORU.NET");
                 "CACHE_FILTER" => "N",
                 "CACHE_GROUPS" => "Y",
                 "SET_LAST_MODIFIED" => "N",
-                "SET_TITLE" => "Y",
+                "SET_TITLE" => "N",
                 "INCLUDE_IBLOCK_INTO_CHAIN" => "Y",
                 "ADD_SECTIONS_CHAIN" => "Y",
                 "ADD_ELEMENT_CHAIN" => "N",
